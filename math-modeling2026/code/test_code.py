@@ -24,4 +24,5 @@ plt.title("test")
 
 plt.legend()
 plt.grid(True)
+plt.savefig("figures/model_compare.png", dpi=300, bbox_inches="tight")
 plt.show()
